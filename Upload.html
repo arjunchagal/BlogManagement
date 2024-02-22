@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Upload your blog</title>
+        <link rel="stylesheet" type="text/css" href="Home.css">
+    </head>
+    <body>
+        <center><h1>Simple Blog Page</h1></center>
+        <div class="nav">
+            <a href="Home.php">Home</a>
+            <a href="Search.html">Search</a>
+            <a href="Upload.html">Upload</a>
+        </div>
+        <h2 style="padding: 0.2% 5%; color: white;">Upload your Article Here:</h2>
+
+        <form action="Upload.php" method="post" enctype="multipart/form-data">
+            Title: <input type = "text" name = "title" style = "padding:0% 3.2%"><br>
+            Content: <input type="text" name = "content" style = "padding:5% 2%"><br>
+            Image: <input type = "file" name = "image1" ><br>
+            <input type="submit" name = "submit">
+        </form>
+    </body>
+</html>
